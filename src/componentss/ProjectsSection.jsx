@@ -46,10 +46,21 @@ const projectsData = [
     tag: ["All", "SCnt"],
     gitUrl: "https://codeshare.io/J7Q3lR",
     previewUrl: "",
-    //React
+    
   },
   {
     id: 5,
+    title: "2nd Exercise Of Smart Contract",
+    description:
+      "Smart contract with the functionality of adding students with ethereum address of their wallet",
+    image: "/smartcontracts/2ejercicio.png",
+    tag: ["All", "SCnt"],
+    gitUrl: "https://codeshare.io/DAJ6rl",
+    previewUrl: "",
+    
+  },
+  {
+    id: 6,
     title: "Natacion Muchos Peces",
     description:
       "Static WebPage for one of my clients. They are professionals with 11 years of experience in teaching swimming to kids in ages between 2 and 6. ",
