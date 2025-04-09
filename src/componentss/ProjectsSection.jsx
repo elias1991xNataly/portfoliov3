@@ -46,7 +46,6 @@ const projectsData = [
     tag: ["All", "SCnt"],
     gitUrl: "https://codeshare.io/J7Q3lR",
     previewUrl: "",
-    
   },
   {
     id: 5,
@@ -57,7 +56,6 @@ const projectsData = [
     tag: ["All", "SCnt"],
     gitUrl: "https://codeshare.io/DAJ6rl",
     previewUrl: "",
-    
   },
   {
     id: 6,
@@ -123,7 +121,7 @@ const ProjectsSection = () => {
           isSelected={tag === "SCnt"}
           onClick={handleTagChange}
         />
-        <ProjectTag
+        {/* <ProjectTag
           name="VueJs"
           isSelected={tag === "VueJs"}
           onClick={handleTagChange}
@@ -137,7 +135,7 @@ const ProjectsSection = () => {
           name="Dapps"
           isSelected={tag === "Dapps"}
           onClick={handleTagChange}
-        />
+        /> */}
       </div>
       <ul className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
